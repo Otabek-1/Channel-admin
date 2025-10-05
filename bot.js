@@ -101,7 +101,6 @@ bot.start(async (ctx) => {
   } else {
     ctx.sendMessage("Salom!")
   }
-  goodNight()
 })
 
 cron.schedule("0 7 * * *", async () => {
