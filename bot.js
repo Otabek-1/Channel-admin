@@ -343,7 +343,7 @@ cron.schedule("0 20 * * *", async () => {
 bot.on("text", async (ctx) => {
   if (broadcast_input && checkAdmin(ctx.message.from.id)) {
     const broadcast_text = ctx.message.text;
-
+    last_broadcast_text = broadcast_text;
     // Agar admin matndan keyin "no" deb yozsa
     if (broadcast_text.trim().toLowerCase() === "no") {
       await ctx.reply("✅ Post kanalga faqat matn bilan yuborildi!");
