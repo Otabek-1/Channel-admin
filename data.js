@@ -415,7 +415,100 @@ const evening_polls = [
   }
 ]
 
+const journey = {
+  "journey_title": "Uzbekistan - London 1 day trip",
+  "lives": 3,
+  "steps": [
+    {
+      "scene": "Airport Arrival",
+      "narration": "Siz London aeroportiga yetib keldingiz va samolyotdan tushdingiz. Officer sizni kutib oldi.",
+      "dialogue": [
+        {
+          "speaker": "Officer",
+          "text": "Hi! Welcome to London. How was your flight?",
+          "options": [
+            "It was fine, thank you.",
+            "I am taxi driver.",
+            "Give me your bag."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        },
+        {
+          "speaker": "Officer",
+          "text": "Do you have anything to declare?",
+          "options": [
+            "Yes, I have some clothes and gifts.",
+            "Yes, I declare my love.",
+            "No, I have nothing special."
+          ],
+          "correct_option": 2,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "Taxi Ride",
+      "narration": "Officer sizga yordam berdi va endi sizni taxi kutib turibdi.",
+      "dialogue": [
+        {
+          "speaker": "Taxi Driver",
+          "text": "Hello! Where do you want to go?",
+          "options": [
+            "Take me to the hotel, please.",
+            "I want apple.",
+            "Go to the moon."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        },
+        {
+          "speaker": "Taxi Driver",
+          "text": "Do you like London so far?",
+          "options": [
+            "Yes, it's amazing!",
+            "No, I hate it.",
+            "I don't know the time."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "Cafe Meeting",
+      "narration": "Siz mehmonxonaga joylashib oldingiz va keyin yaqin kafega kirdingiz.",
+      "dialogue": [
+        {
+          "speaker": "Waiter",
+          "text": "Good evening! What would you like to order?",
+          "options": [
+            "One coffee, please.",
+            "Where is toilet?",
+            "Give me money."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Would you like anything else?",
+          "options": [
+            "Yes, a sandwich please.",
+            "No, I don’t like English.",
+            "I am Uzbekistan."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        }
+      ]
+    }
+  ],
+  "ending": "Congratulations 🎉 Siz safarni muvaffaqiyatli tugatdingiz va 1 kunda London bilan tanishib chiqdiz!"
+}
+
+
 
 module.exports = {
-    quizzes, posts, quotes, facts, challenges, polls, evening_polls
+    quizzes, posts, quotes, facts, challenges, polls, evening_polls, journey
 }
