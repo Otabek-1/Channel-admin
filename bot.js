@@ -4,6 +4,8 @@ const path = require("path")
 const cron = require("node-cron")
 const { quizzes, posts, quotes, facts, challenges, polls, evening_polls, journey } = require("./data")
 require("dotenv").config()
+const moment = require("moment-timezone");
+
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 const channel = process.env.CHANNEL_LINK
@@ -268,10 +270,14 @@ bot.on("callback_query", async (ctx) => {
   if (data == "start_journey") {
     await ctx.reply(
       `🚀 Ajoyib! Demak bugungi sayohat:\n\n<b>${journey.journey_title}</b>\n\nSizda xato qilishga <b>totally ${journey.lives}</b> ta imkoniyat bor. 💡\n\n<b>⚠️ WARNING!</b>\nAgar imkoniyatlaringiz tugasa sayohat avtomatik to‘xtatiladi va sizda <i>qayta topshirish imkoniyati yo‘q</i>. ❌\n\n⏳ Har bir savolga javob berish uchun sizda faqat <b>30 sekund</b> vaqt bor. Agar ulgurmasangiz ham imkoniyatingiz 1 taga kamayadi.\n\n🔥 Boshlashga tayyormisiz???`,
-      { parse_mode: "HTML" }, Markup.inlineKeyboard([
-        ["Let's go 🚀", "start_journey_action"]
-      ])
+      {
+        parse_mode: "HTML",
+        ...Markup.inlineKeyboard([
+          [Markup.button.callback("Let's go 🚀", "start_journey_action")]
+        ])
+      }
     );
+
     await ctx.answerCbQuery();
     return;
   }
@@ -324,7 +330,7 @@ bot.on("callback_query", async (ctx) => {
   await ctx.answerCbQuery();
 });
 // Har kuni 20:00 da natija chiqarish
-cron.schedule("0 20 * * *", async () => {
+cron.schedule("10 15 * * *", async () => {
   if (journey_completed.length === 0) {
     await bot.telegram.sendMessage(channel, "Bugun hech kim journey’ni tugata olmadi 😢");
   } else {
@@ -344,11 +350,11 @@ bot.on("text", async (ctx) => {
   if (broadcast_input && checkAdmin(ctx.message.from.id)) {
     const broadcast_text = ctx.message.text;
     if (broadcast_input && checkAdmin(ctx.message.from.id)) {
-    const broadcast_text = ctx.message.text;
-    await ctx.reply("Accepted! Post successfully published!")
-    await bot.telegram.sendMessage(channel, broadcast_text)
-    broadcast_input = false
-  }
+      const broadcast_text = ctx.message.text;
+      await ctx.reply("Accepted! Post successfully published!")
+      await bot.telegram.sendMessage(channel, broadcast_text)
+      broadcast_input = false
+    }
   }
 });
 
