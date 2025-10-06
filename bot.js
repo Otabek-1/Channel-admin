@@ -14,6 +14,7 @@ let broadcast_input = false;
 let userProgress = {}; // { userId: { lives, step, dialogue, timeout } }
 let journey_completed = [];
 let attempted = [];
+let last_broadcast_text = "";
 
 function formatUser(user) {
   return user.username ? `@${user.username}` : (user.first_name || "") + " " + (user.last_name || "");
