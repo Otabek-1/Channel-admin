@@ -351,19 +351,19 @@ bot.on("text", async (ctx) => {
       broadcast_input = false;
     }
     // Agar admin "Button name, link" formatida yozsa
-    else if (broadcast_text.includes(",")) {
-      const [btnText, btnUrl] = broadcast_text.split(",").map(s => s.trim());
+    // else if (broadcast_text.includes(",")) {
+    //   const [btnText, btnUrl] = broadcast_text.split(",").map(s => s.trim());
 
-      await ctx.reply("✅ Post kanalga button bilan yuborildi!");
-      await bot.telegram.sendMessage(
-        channel,
-        last_broadcast_text,
-        Markup.inlineKeyboard([
-          [Markup.button.url(btnText, btnUrl)]
-        ])
-      );
-      broadcast_input = false;
-    }
+    //   await ctx.reply("✅ Post kanalga button bilan yuborildi!");
+    //   await bot.telegram.sendMessage(
+    //     channel,
+    //     last_broadcast_text,
+    //     Markup.inlineKeyboard([
+    //       [Markup.button.url(btnText, btnUrl)]
+    //     ])
+    //   );
+    //   broadcast_input = false;
+    // }
     // Aks holda – bu matnni keyin yuborish uchun saqlab qo‘yamiz
     else {
       last_broadcast_text = broadcast_text;
