@@ -343,32 +343,12 @@ cron.schedule("0 20 * * *", async () => {
 bot.on("text", async (ctx) => {
   if (broadcast_input && checkAdmin(ctx.message.from.id)) {
     const broadcast_text = ctx.message.text;
-    last_broadcast_text = broadcast_text;
-    // Agar admin matndan keyin "no" deb yozsa
-    if (broadcast_text.trim().toLowerCase() === "no") {
-      await ctx.reply("✅ Post kanalga faqat matn bilan yuborildi!");
-      await bot.telegram.sendMessage(channel, last_broadcast_text);
-      broadcast_input = false;
-    }
-    // Agar admin "Button name, link" formatida yozsa
-    // else if (broadcast_text.includes(",")) {
-    //   const [btnText, btnUrl] = broadcast_text.split(",").map(s => s.trim());
-
-    //   await ctx.reply("✅ Post kanalga button bilan yuborildi!");
-    //   await bot.telegram.sendMessage(
-    //     channel,
-    //     last_broadcast_text,
-    //     Markup.inlineKeyboard([
-    //       [Markup.button.url(btnText, btnUrl)]
-    //     ])
-    //   );
-    //   broadcast_input = false;
-    // }
-    // Aks holda – bu matnni keyin yuborish uchun saqlab qo‘yamiz
-    else {
-      last_broadcast_text = broadcast_text;
-      await ctx.reply("✅ Accepted! Do you want to add button (link)? Write `Button name, link_url` or write `no`.");
-    }
+    if (broadcast_input && checkAdmin(ctx.message.from.id)) {
+    const broadcast_text = ctx.message.text;
+    await ctx.reply("Accepted! Post successfully published!")
+    await bot.telegram.sendMessage(channel, broadcast_text)
+    broadcast_input = false
+  }
   }
 });
 
