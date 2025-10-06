@@ -330,7 +330,7 @@ bot.on("callback_query", async (ctx) => {
   await ctx.answerCbQuery();
 });
 // Har kuni 20:00 da natija chiqarish
-cron.schedule("10 15 * * *", async () => {
+cron.schedule("0 20 * * *", async () => {
   if (journey_completed.length === 0) {
     await bot.telegram.sendMessage(channel, "Bugun hech kim journey’ni tugata olmadi 😢");
   } else {
