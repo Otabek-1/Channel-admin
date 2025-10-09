@@ -416,59 +416,20 @@ const evening_polls = [
 ]
 
 const journey = {
-  "journey_title": "Uzbekistan - London 1 day trip",
+  "journey_title": "Amazon Jungle Survival",
   "lives": 3,
   "steps": [
     {
-      "scene": "Airport Arrival",
-      "narration": "Siz London aeroportiga yetib keldingiz va samolyotdan tushdingiz. Officer sizni kutib oldi.",
+      "scene": "Arrival at the Jungle",
+      "narration": "You step out of the small plane and into the heart of the Amazon rainforest. The air is hot, humid, and filled with the sound of exotic birds.",
       "dialogue": [
         {
-          "speaker": "Officer",
-          "text": "Hi! Welcome to London. How was your flight?",
+          "speaker": "Guide",
+          "text": "Welcome, traveler! Only the strong can survive here. Are you ready?",
           "options": [
-            "It was fine, thank you.",
-            "I am taxi driver.",
-            "Give me your bag."
-          ],
-          "correct_option": 0,
-          "time_limit": 30
-        },
-        {
-          "speaker": "Officer",
-          "text": "Do you have anything to declare?",
-          "options": [
-            "Yes, I have some clothes and gifts.",
-            "Yes, I declare my love.",
-            "No, I have nothing special."
-          ],
-          "correct_option": 2,
-          "time_limit": 30
-        }
-      ]
-    },
-    {
-      "scene": "Taxi Ride",
-      "narration": "Officer sizga yordam berdi va endi sizni taxi kutib turibdi.",
-      "dialogue": [
-        {
-          "speaker": "Taxi Driver",
-          "text": "Hello! Where do you want to go?",
-          "options": [
-            "Take me to the hotel, please.",
-            "I want apple.",
-            "Go to the moon."
-          ],
-          "correct_option": 0,
-          "time_limit": 30
-        },
-        {
-          "speaker": "Taxi Driver",
-          "text": "Do you like London so far?",
-          "options": [
-            "Yes, it's amazing!",
-            "No, I hate it.",
-            "I don't know the time."
+            "Yes, I’m ready!",
+            "No, I feel scared.",
+            "Maybe after some food first."
           ],
           "correct_option": 0,
           "time_limit": 30
@@ -476,27 +437,101 @@ const journey = {
       ]
     },
     {
-      "scene": "Cafe Meeting",
-      "narration": "Siz mehmonxonaga joylashib oldingiz va keyin yaqin kafega kirdingiz.",
+      "scene": "The Dense Forest",
+      "narration": "As you move deeper, the forest becomes thicker and darker. Insects buzz loudly around you.",
       "dialogue": [
         {
-          "speaker": "Waiter",
-          "text": "Good evening! What would you like to order?",
+          "speaker": "Guide",
+          "text": "The path splits ahead. One is narrow and risky but faster, the other is longer but safer. Which way?",
           "options": [
-            "One coffee, please.",
-            "Where is toilet?",
-            "Give me money."
+            "The narrow risky path.",
+            "The long safe path.",
+            "Forget paths, let’s cut through the forest."
+          ],
+          "correct_option": 1,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "The Swamp",
+      "narration": "A swamp blocks your way. Each step sinks deeper into the muddy ground.",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "text": "This is dangerous. How do we cross?",
+          "options": [
+            "Gather branches to walk over it.",
+            "Jump straight into the water.",
+            "Turn back."
           ],
           "correct_option": 0,
           "time_limit": 30
-        },
+        }
+      ]
+    },
+    {
+      "scene": "Jaguar Encounter",
+      "narration": "From the shadows, a jaguar appears. Its golden eyes lock onto you.",
+      "dialogue": [
         {
-          "speaker": "Waiter",
-          "text": "Would you like anything else?",
+          "speaker": "Guide",
+          "text": "Stay calm! What do we do?",
           "options": [
-            "Yes, a sandwich please.",
-            "No, I don’t like English.",
-            "I am Uzbekistan."
+            "Slowly back away.",
+            "Scream loudly to scare it.",
+            "Charge at the jaguar."
+          ],
+          "correct_option": 0,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "The River Rapids",
+      "narration": "You reach a wild river. The current is dangerously strong.",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "text": "We need to cross. What’s your choice?",
+          "options": [
+            "Cross the shaky rope bridge.",
+            "Build a canoe and paddle across.",
+            "Try to jump over the river."
+          ],
+          "correct_option": 1,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "Night in the Jungle",
+      "narration": "Darkness falls. Strange sounds echo from every direction, and glowing eyes flicker in the trees.",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "text": "We must rest, but also stay safe. What do we do?",
+          "options": [
+            "Climb a tree and sleep high up.",
+            "Make a fire and camp on the ground.",
+            "Keep walking through the night."
+          ],
+          "correct_option": 1,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "The Hidden Temple",
+      "narration": "At dawn, you stumble upon an ancient stone temple hidden deep in the jungle.",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "text": "This temple may hold treasures… or traps. What’s your move?",
+          "options": [
+            "Enter carefully and explore.",
+            "Stay outside, it’s too risky.",
+            "Mark the location and return later."
           ],
           "correct_option": 0,
           "time_limit": 30
@@ -504,8 +539,9 @@ const journey = {
       ]
     }
   ],
-  "ending": "Congratulations 🎉 Siz safarni muvaffaqiyatli tugatdingiz va 1 kunda London bilan tanishib chiqdiz!"
+  "ending": "🏆 Congratulations! You’ve survived the Amazon Jungle journey. You faced danger, made wise choices, and proved yourself a true adventurer!"
 }
+
 
 
 

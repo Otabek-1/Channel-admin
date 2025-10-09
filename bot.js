@@ -346,16 +346,32 @@ cron.schedule("0 20 * * *", async () => {
   timezone: "Asia/Tashkent"
 });
 
-bot.on("text", async (ctx) => {
+bot.on("message", async (ctx) => {
   if (broadcast_input && checkAdmin(ctx.message.from.id)) {
-    const broadcast_text = ctx.message.text;
-    if (broadcast_input && checkAdmin(ctx.message.from.id)) {
-      const broadcast_text = ctx.message.text;
-      await ctx.reply("Accepted! Post successfully published!")
-      await bot.telegram.sendMessage(channel, broadcast_text)
-      broadcast_input = false
+    broadcast_input = false;
+
+    // Postni admin yuborgan narsaga qarab forward qilamiz
+    if (ctx.message.text) {
+      await ctx.reply("✅ Accepted! Text post successfully published!");
+      await bot.telegram.sendMessage(channel, ctx.message.text);
+    } else if (ctx.message.photo) {
+      const caption = ctx.message.caption || "";
+      const photo = ctx.message.photo[ctx.message.photo.length - 1].file_id; // eng sifatli
+      await ctx.reply("✅ Accepted! Photo post successfully published!");
+      await bot.telegram.sendPhoto(channel, photo, { caption });
+    } else if (ctx.message.video) {
+      const caption = ctx.message.caption || "";
+      await ctx.reply("✅ Accepted! Video post successfully published!");
+      await bot.telegram.sendVideo(channel, ctx.message.video.file_id, { caption });
+    } else if (ctx.message.document) {
+      const caption = ctx.message.caption || "";
+      await ctx.reply("✅ Accepted! Document post successfully published!");
+      await bot.telegram.sendDocument(channel, ctx.message.document.file_id, { caption });
+    } else {
+      await ctx.reply("⚠️ This type of content is not supported yet.");
     }
   }
 });
+
 
 bot.launch()
