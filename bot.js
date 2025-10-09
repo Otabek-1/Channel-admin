@@ -149,23 +149,33 @@ bot.start(async (ctx) => {
   const user = ctx.message.from;
 
   if (checkAdmin(user.id)) {
-    ctx.sendMessage("Salom!", Markup.inlineKeyboard([
-      [Markup.button.callback("Send broadcast", "send_broadcast")],
-    ]))
-  } else {
-    const now = moment().tz("Asia/Tashkent");
-    const hour = now.hour();
-
-    if (hour >= 16 && hour < 20) {
-      await ctx.sendMessage("Salom! ✨ Bugungi Journey boshlashga tayyormisiz?",
-        Markup.inlineKeyboard([
-          [Markup.button.callback("▶️ Start today's journey", "start_journey")]
-        ])
-      );
-    } else {
-      await ctx.sendMessage("Salom! 😊\n\nJourney faqat <b>16:00 - 20:00</b> orasida ochiladi (Asia/Tashkent). Kutib turing! ⏳", { parse_mode: "HTML" });
-    }
+    // admin uchun inline tugma (callback)
+    return ctx.reply(
+      "Salom, Admin!",
+      Markup.inlineKeyboard([
+        [Markup.button.callback("Send broadcast", "send_broadcast")]
+      ])
+    );
   }
+
+  // non-admin
+  const now = moment().tz("Asia/Tashkent");
+  const hour = now.hour();
+
+  if (hour >= 16 && hour < 20) {
+    return ctx.reply(
+      "Salom! ✨ Bugungi Journey boshlashga tayyormisiz?",
+      Markup.inlineKeyboard([
+        [Markup.button.callback("▶️ Start today's journey", "start_journey")]
+      ])
+    );
+  }
+
+  // Journey ochiq bo'lmaganda reply keyboard (input ostidagi tugma)
+  return ctx.replyWithHTML(
+    "Salom! 😊\n\nJourney faqat <b>16:00 - 20:00</b> orasida ochiladi (Asia/Tashkent). Kutib turing! ⏳\nYoki boshqa xizmatlardan foydalaning.",
+    Markup.keyboard([["📕 Reading mock"]]).resize().oneTime()
+  );
 });
 
 cron.schedule("0 7 * * *", async () => {
@@ -370,6 +380,15 @@ bot.on("message", async (ctx) => {
     } else {
       await ctx.reply("⚠️ This type of content is not supported yet.");
     }
+  } else if (ctx.message.text === "📕 Reading mock") {
+    // await ctx.reply(
+    //   "Platformaga kirish uchun tugmani bosing.",
+    //   Markup.inlineKeyboard([
+    //     [Markup.button.url("Kirish", "https://google.com")]
+    //   ])
+    // );
+    await ctx.reply("Coming soon.")
+
   }
 });
 

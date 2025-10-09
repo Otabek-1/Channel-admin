@@ -1,122 +1,122 @@
 const quizzes = [
-    {
-        question: "🧐 Can you spot the mistake?\n\n👉 'She go to school every day.'",
-        options: [
-            "Correct as it is ✅",
-            "She goes to school every day.",
-            "She going to school every day.",
-            "She is go school every day."
-        ],
-        correct: 1,
-        explanation: "❌ Subject–verb agreement! With 'She/He/It' we use verb + 's'."
-    },
-    {
-        question: "🔍 Which sentence is more natural in English?\n\n👉 'I very like pizza.'",
-        options: [
-            "I very like pizza.",
-            "I like pizza very much.",
-            "Very I like pizza.",
-            "I much like pizza."
-        ],
-        correct: 1,
-        explanation: "✅ In English we say 'I like ... very much', not 'I very like ...'."
-    },
-    {
-        question: "🤓 Choose the correct form:\n\n👉 'If I ___ rich, I would travel the world.'",
-        options: [
-            "am",
-            "was",
-            "were",
-            "be"
-        ],
-        correct: 2,
-        explanation: "💡 In conditional (unreal present), we use 'If I were', not 'was'."
-    },
-    {
-        question: "😏 Which is the odd one out?",
-        options: [
-            "Their house is big.",
-            "They’re going to school.",
-            "There is a book on the table.",
-            "Theyre happy today."
-        ],
-        correct: 3,
-        explanation: "👉 'Theyre' is wrong. It should be 'They're'."
-    },
-    {
-        question: "🎯 Spot the tricky word:\n\n👉 'He is married with a doctor.'",
-        options: [
-            "Correct sentence",
-            "He is married a doctor.",
-            "He is married to a doctor.",
-            "He married with a doctor."
-        ],
-        correct: 2,
-        explanation: "🔑 We say 'married TO somebody', not 'with'."
-    },
-    {
-        question: "📝 Which is correct?\n\n👉 'He has visited Paris last year.'",
-        options: [
-            "He has visited Paris last year.",
-            "He visited Paris last year.",
-            "He has visit Paris last year.",
-            "He visit Paris last year."
-        ],
-        correct: 1,
-        explanation: "✅ We use Past Simple ('visited') with specific time expressions like 'last year'."
-    },
-    {
-        question: "🔎 Choose the correct word:\n\n👉 'I am looking forward ___ your reply.'",
-        options: [
-            "for",
-            "to",
-            "at",
-            "on"
-        ],
-        correct: 1,
-        explanation: "💡 'Look forward to' is the correct phrase."
-    },
-    {
-        question: "🤔 Which sentence is correct?",
-        options: [
-            "She can to swim.",
-            "She cans swim.",
-            "She can swim.",
-            "She can swims."
-        ],
-        correct: 2,
-        explanation: "✅ After 'can', use the base form: 'can swim'."
-    },
-    {
-        question: "🧐 Spot the mistake:\n\n👉 'There is too much people here.'",
-        options: [
-            "Correct as it is ✅",
-            "There are too much people here.",
-            "There are too many people here.",
-            "There is too many people here."
-        ],
-        correct: 2,
-        explanation: "❌ 'People' is plural, so use 'many' and 'are': 'There are too many people here.'"
-    },
-    {
-        question: "📚 Which is the odd one out?",
-        options: [
-            "Advice",
-            "Information",
-            "News",
-            "Furnitures"
-        ],
-        correct: 3,
-        explanation: "👉 'Furnitures' is incorrect. 'Furniture' is uncountable and has no plural."
-    }
-    // ...add more as needed...
+  {
+    question: "🧐 Can you spot the mistake?\n\n👉 'She go to school every day.'",
+    options: [
+      "Correct as it is ✅",
+      "She goes to school every day.",
+      "She going to school every day.",
+      "She is go school every day."
+    ],
+    correct: 1,
+    explanation: "❌ Subject–verb agreement! With 'She/He/It' we use verb + 's'."
+  },
+  {
+    question: "🔍 Which sentence is more natural in English?\n\n👉 'I very like pizza.'",
+    options: [
+      "I very like pizza.",
+      "I like pizza very much.",
+      "Very I like pizza.",
+      "I much like pizza."
+    ],
+    correct: 1,
+    explanation: "✅ In English we say 'I like ... very much', not 'I very like ...'."
+  },
+  {
+    question: "🤓 Choose the correct form:\n\n👉 'If I ___ rich, I would travel the world.'",
+    options: [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    correct: 2,
+    explanation: "💡 In conditional (unreal present), we use 'If I were', not 'was'."
+  },
+  {
+    question: "😏 Which is the odd one out?",
+    options: [
+      "Their house is big.",
+      "They’re going to school.",
+      "There is a book on the table.",
+      "Theyre happy today."
+    ],
+    correct: 3,
+    explanation: "👉 'Theyre' is wrong. It should be 'They're'."
+  },
+  {
+    question: "🎯 Spot the tricky word:\n\n👉 'He is married with a doctor.'",
+    options: [
+      "Correct sentence",
+      "He is married a doctor.",
+      "He is married to a doctor.",
+      "He married with a doctor."
+    ],
+    correct: 2,
+    explanation: "🔑 We say 'married TO somebody', not 'with'."
+  },
+  {
+    question: "📝 Which is correct?\n\n👉 'He has visited Paris last year.'",
+    options: [
+      "He has visited Paris last year.",
+      "He visited Paris last year.",
+      "He has visit Paris last year.",
+      "He visit Paris last year."
+    ],
+    correct: 1,
+    explanation: "✅ We use Past Simple ('visited') with specific time expressions like 'last year'."
+  },
+  {
+    question: "🔎 Choose the correct word:\n\n👉 'I am looking forward ___ your reply.'",
+    options: [
+      "for",
+      "to",
+      "at",
+      "on"
+    ],
+    correct: 1,
+    explanation: "💡 'Look forward to' is the correct phrase."
+  },
+  {
+    question: "🤔 Which sentence is correct?",
+    options: [
+      "She can to swim.",
+      "She cans swim.",
+      "She can swim.",
+      "She can swims."
+    ],
+    correct: 2,
+    explanation: "✅ After 'can', use the base form: 'can swim'."
+  },
+  {
+    question: "🧐 Spot the mistake:\n\n👉 'There is too much people here.'",
+    options: [
+      "Correct as it is ✅",
+      "There are too much people here.",
+      "There are too many people here.",
+      "There is too many people here."
+    ],
+    correct: 2,
+    explanation: "❌ 'People' is plural, so use 'many' and 'are': 'There are too many people here.'"
+  },
+  {
+    question: "📚 Which is the odd one out?",
+    options: [
+      "Advice",
+      "Information",
+      "News",
+      "Furnitures"
+    ],
+    correct: 3,
+    explanation: "👉 'Furnitures' is incorrect. 'Furniture' is uncountable and has no plural."
+  }
+  // ...add more as needed...
 ];
 
 const posts = [
-    {
-        category: "IELTS_Vocabulary",
-        title: "🔥 Top 10 Band 8 Vocabulary for IELTS",
-        content: `
+  {
+    category: "IELTS_Vocabulary",
+    title: "🔥 Top 10 Band 8 Vocabulary for IELTS",
+    content: `
 1️⃣ Alleviate — make (something bad) less severe  
 2️⃣ Substantial — large, important  
 3️⃣ Impede — to slow down or block progress  
@@ -130,11 +130,11 @@ const posts = [
 
 👉 Try to use these words in your writing & speaking!
     `
-    },
-    {
-        category: "Workplace_English",
-        title: "💼 10 Useful Business English Phrases",
-        content: `
+  },
+  {
+    category: "Workplace_English",
+    title: "💼 10 Useful Business English Phrases",
+    content: `
 1️⃣ Let's get the ball rolling — start the meeting  
 2️⃣ To touch base — to contact someone  
 3️⃣ On the same page — have the same understanding  
@@ -148,11 +148,11 @@ const posts = [
 
 👉 Master these for professional success!
     `
-    },
-    {
-        category: "Everyday_Conversation",
-        title: "🗣 Top 10 Everyday English Words",
-        content: `
+  },
+  {
+    category: "Everyday_Conversation",
+    title: "🗣 Top 10 Everyday English Words",
+    content: `
 1️⃣ What's up? — How are you?  
 2️⃣ Chill out — Relax  
 3️⃣ No worries — It's okay  
@@ -166,11 +166,11 @@ const posts = [
 
 👉 Use these to sound more natural!
     `
-    },
-    {
-        category: "Grammar_Tip",
-        title: "✍️ Common Grammar Mistakes",
-        content: `
+  },
+  {
+    category: "Grammar_Tip",
+    title: "✍️ Common Grammar Mistakes",
+    content: `
 ❌ He don't like it.  
 ✅ He doesn't like it.  
 
@@ -185,11 +185,11 @@ const posts = [
 
 👉 Avoid these to speak more clearly!
     `
-    },
-    {
-        category: "Idioms_&_Phrases",
-        title: "🌍 10 Idioms to Boost Your English",
-        content: `
+  },
+  {
+    category: "Idioms_&_Phrases",
+    title: "🌍 10 Idioms to Boost Your English",
+    content: `
 1️⃣ Break the ice — start a conversation  
 2️⃣ A piece of cake — very easy  
 3️⃣ Under the weather — feeling sick  
@@ -203,11 +203,11 @@ const posts = [
 
 👉 Idioms make your English more colorful!
     `
-    },
-    {
-        category: "IELTS_Vocabulary",
-        title: "💡 10 More Advanced Words for IELTS",
-        content: `
+  },
+  {
+    category: "IELTS_Vocabulary",
+    title: "💡 10 More Advanced Words for IELTS",
+    content: `
 1️⃣ Concur — to agree  
 2️⃣ Dwindle — to decrease gradually  
 3️⃣ Exacerbate — to make worse  
@@ -221,11 +221,11 @@ const posts = [
 
 👉 Try to use these in your next essay!
         `
-    },
-    {
-        category: "Workplace_English",
-        title: "📈 10 More Business English Expressions",
-        content: `
+  },
+  {
+    category: "Workplace_English",
+    title: "📈 10 More Business English Expressions",
+    content: `
 1️⃣ To brainstorm — generate ideas  
 2️⃣ To touch base — check in with someone  
 3️⃣ To take it offline — discuss privately  
@@ -239,11 +239,11 @@ const posts = [
 
 👉 Use these to sound more professional!
         `
-    },
-    {
-        category: "Everyday_Conversation",
-        title: "🗨️ 10 More Everyday English Phrases",
-        content: `
+  },
+  {
+    category: "Everyday_Conversation",
+    title: "🗨️ 10 More Everyday English Phrases",
+    content: `
 1️⃣ No big deal — Not a problem  
 2️⃣ Take your time — No rush  
 3️⃣ I’m in — I agree  
@@ -257,11 +257,11 @@ const posts = [
 
 👉 Try these in your daily chats!
         `
-    },
-    {
-        category: "Grammar_Tip",
-        title: "📝 More Common Grammar Mistakes",
-        content: `
+  },
+  {
+    category: "Grammar_Tip",
+    title: "📝 More Common Grammar Mistakes",
+    content: `
 ❌ I have 20 years old.  
 ✅ I am 20 years old.  
 
@@ -276,11 +276,11 @@ const posts = [
 
 👉 Watch out for these mistakes!
         `
-    },
-    {
-        category: "Idioms_&_Phrases",
-        title: "🦉 10 More Useful Idioms",
-        content: `
+  },
+  {
+    category: "Idioms_&_Phrases",
+    title: "🦉 10 More Useful Idioms",
+    content: `
 1️⃣ Hit the books — study hard  
 2️⃣ Let the cat out of the bag — reveal a secret  
 3️⃣ The ball is in your court — it’s your decision  
@@ -294,8 +294,8 @@ const posts = [
 
 👉 Idioms make your English richer!
         `
-    }
-    // ...add more as needed...
+  }
+  // ...add more as needed...
 ];
 
 const quotes = [
@@ -416,135 +416,89 @@ const evening_polls = [
 ]
 
 const journey = {
-  "journey_title": "Amazon Jungle Survival",
+  "journey_title": "⛰️ Mountain Climbing Adventure",
   "lives": 3,
   "steps": [
     {
-      "scene": "Arrival at the Jungle",
-      "narration": "You step out of the small plane and into the heart of the Amazon rainforest. The air is hot, humid, and filled with the sound of exotic birds.",
+      "scene": "Base Camp",
+      "narration": "You are standing at the foot of a tall snowy mountain. The air is fresh, and the path ahead looks both exciting and dangerous.",
       "dialogue": [
         {
           "speaker": "Guide",
-          "text": "Welcome, traveler! Only the strong can survive here. Are you ready?",
-          "options": [
-            "Yes, I’m ready!",
-            "No, I feel scared.",
-            "Maybe after some food first."
-          ],
+          "text": "Welcome, adventurer! Are you ready to climb the mountain?",
+          "options": ["Yes, let's go!", "No, it's too risky..."],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "The Dense Forest",
-      "narration": "As you move deeper, the forest becomes thicker and darker. Insects buzz loudly around you.",
+      "scene": "Rocky Path",
+      "narration": "The path gets steeper and rocks are loose. You must choose carefully where to step.",
       "dialogue": [
         {
           "speaker": "Guide",
-          "text": "The path splits ahead. One is narrow and risky but faster, the other is longer but safer. Which way?",
-          "options": [
-            "The narrow risky path.",
-            "The long safe path.",
-            "Forget paths, let’s cut through the forest."
-          ],
-          "correct_option": 1,
-          "time_limit": 30
-        }
-      ]
-    },
-    {
-      "scene": "The Swamp",
-      "narration": "A swamp blocks your way. Each step sinks deeper into the muddy ground.",
-      "dialogue": [
-        {
-          "speaker": "Guide",
-          "text": "This is dangerous. How do we cross?",
-          "options": [
-            "Gather branches to walk over it.",
-            "Jump straight into the water.",
-            "Turn back."
-          ],
+          "text": "The left path looks longer but safer. The right one is shorter but dangerous. Which way do we go?",
+          "options": ["Left (safe)", "Right (fast)"],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "Jaguar Encounter",
-      "narration": "From the shadows, a jaguar appears. Its golden eyes lock onto you.",
+      "scene": "Snowy Cliff",
+      "narration": "Cold winds blow strongly, and you can barely see ahead.",
       "dialogue": [
         {
-          "speaker": "Guide",
-          "text": "Stay calm! What do we do?",
-          "options": [
-            "Slowly back away.",
-            "Scream loudly to scare it.",
-            "Charge at the jaguar."
-          ],
+          "speaker": "Teammate",
+          "text": "We need to secure the rope before moving forward. Should we?",
+          "options": ["Yes, tie the rope", "No, go without rope"],
+          "correct_option": 0,
+          "time_limit": 30
+        },
+        {
+          "speaker": "Teammate",
+          "text": "The rope is ready. But one of us is tired. Should we stop and rest or keep pushing?",
+          "options": ["Stop and rest", "Keep pushing"],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "The River Rapids",
-      "narration": "You reach a wild river. The current is dangerously strong.",
+      "scene": "Frozen Lake",
+      "narration": "Ahead lies a frozen lake. Crossing it could save time, but the ice might be weak.",
       "dialogue": [
         {
           "speaker": "Guide",
-          "text": "We need to cross. What’s your choice?",
-          "options": [
-            "Cross the shaky rope bridge.",
-            "Build a canoe and paddle across.",
-            "Try to jump over the river."
-          ],
+          "text": "Do we cross the frozen lake or take the longer route around it?",
+          "options": ["Cross the lake", "Go around"],
           "correct_option": 1,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "Night in the Jungle",
-      "narration": "Darkness falls. Strange sounds echo from every direction, and glowing eyes flicker in the trees.",
+      "scene": "Summit",
+      "narration": "Finally, after hours of climbing, you see the peak glowing in the sunlight.",
       "dialogue": [
         {
           "speaker": "Guide",
-          "text": "We must rest, but also stay safe. What do we do?",
-          "options": [
-            "Climb a tree and sleep high up.",
-            "Make a fire and camp on the ground.",
-            "Keep walking through the night."
-          ],
-          "correct_option": 1,
-          "time_limit": 30
-        }
-      ]
-    },
-    {
-      "scene": "The Hidden Temple",
-      "narration": "At dawn, you stumble upon an ancient stone temple hidden deep in the jungle.",
-      "dialogue": [
-        {
-          "speaker": "Guide",
-          "text": "This temple may hold treasures… or traps. What’s your move?",
-          "options": [
-            "Enter carefully and explore.",
-            "Stay outside, it’s too risky.",
-            "Mark the location and return later."
-          ],
+          "text": "Congratulations! One last push to reach the top. Ready?",
+          "options": ["Yes! Let's finish this!", "I'm too tired..."],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     }
   ],
-  "ending": "🏆 Congratulations! You’ve survived the Amazon Jungle journey. You faced danger, made wise choices, and proved yourself a true adventurer!"
+  "ending": "🎉 You reached the top of the mountain! The view is breathtaking, and you feel proud of your journey. Well done, climber! 🏔️"
 }
 
 
 
 
+
 module.exports = {
-    quizzes, posts, quotes, facts, challenges, polls, evening_polls, journey
+  quizzes, posts, quotes, facts, challenges, polls, evening_polls, journey
 }
