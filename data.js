@@ -416,84 +416,85 @@ const evening_polls = [
 ]
 
 const journey = {
-  "journey_title": "⛰️ Mountain Climbing Adventure",
+  "journey_title": "🏝️ Desert Island Survival",
   "lives": 3,
   "steps": [
     {
-      "scene": "Base Camp",
-      "narration": "You are standing at the foot of a tall snowy mountain. The air is fresh, and the path ahead looks both exciting and dangerous.",
+      "scene": "Shipwreck Shore",
+      "narration": "Your ship sank, and you washed up on a deserted island. The sound of waves and cries of seagulls surround you.",
       "dialogue": [
         {
-          "speaker": "Guide",
-          "text": "Welcome, adventurer! Are you ready to climb the mountain?",
-          "options": ["Yes, let's go!", "No, it's too risky..."],
+          "speaker": "Survivor",
+          "text": "We need to find supplies quickly. What should we do first?",
+          "options": ["Look for fresh water 💧", "Search for food 🍌"],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "Rocky Path",
-      "narration": "The path gets steeper and rocks are loose. You must choose carefully where to step.",
-      "dialogue": [
-        {
-          "speaker": "Guide",
-          "text": "The left path looks longer but safer. The right one is shorter but dangerous. Which way do we go?",
-          "options": ["Left (safe)", "Right (fast)"],
-          "correct_option": 0,
-          "time_limit": 30
-        }
-      ]
-    },
-    {
-      "scene": "Snowy Cliff",
-      "narration": "Cold winds blow strongly, and you can barely see ahead.",
+      "scene": "Coconut Grove",
+      "narration": "You find a grove full of coconuts. It could be useful for food and water.",
       "dialogue": [
         {
           "speaker": "Teammate",
-          "text": "We need to secure the rope before moving forward. Should we?",
-          "options": ["Yes, tie the rope", "No, go without rope"],
+          "text": "Should we climb the tree for coconuts or look for other fruits?",
+          "options": ["Climb for coconuts 🥥", "Look elsewhere 🌿"],
           "correct_option": 0,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "Wild Encounter",
+      "narration": "As you move inland, you hear rustling in the bushes. Something is watching you...",
+      "dialogue": [
+        {
+          "speaker": "Guide",
+          "text": "It might be an animal. Should we investigate or stay quiet?",
+          "options": ["Investigate 🔦", "Stay quiet 🤫"],
+          "correct_option": 1,
           "time_limit": 30
         },
         {
           "speaker": "Teammate",
-          "text": "The rope is ready. But one of us is tired. Should we stop and rest or keep pushing?",
-          "options": ["Stop and rest", "Keep pushing"],
-          "correct_option": 0,
-          "time_limit": 30
-        }
-      ]
-    },
-    {
-      "scene": "Frozen Lake",
-      "narration": "Ahead lies a frozen lake. Crossing it could save time, but the ice might be weak.",
-      "dialogue": [
-        {
-          "speaker": "Guide",
-          "text": "Do we cross the frozen lake or take the longer route around it?",
-          "options": ["Cross the lake", "Go around"],
+          "text": "Good call! It was just a harmless iguana. Should we catch it for food?",
+          "options": ["Yes, catch it 🍖", "No, let it go 🦎"],
           "correct_option": 1,
           "time_limit": 30
         }
       ]
     },
     {
-      "scene": "Summit",
-      "narration": "Finally, after hours of climbing, you see the peak glowing in the sunlight.",
+      "scene": "Shelter Building",
+      "narration": "The sun is setting. You need to build shelter before night comes.",
+      "dialogue": [
+        {
+          "speaker": "Survivor",
+          "text": "Should we build the shelter near the beach or deeper in the forest?",
+          "options": ["Near the beach 🏖️", "In the forest 🌴"],
+          "correct_option": 1,
+          "time_limit": 30
+        }
+      ]
+    },
+    {
+      "scene": "Signal Fire",
+      "narration": "You survived the night! Now you need to signal for help.",
       "dialogue": [
         {
           "speaker": "Guide",
-          "text": "Congratulations! One last push to reach the top. Ready?",
-          "options": ["Yes! Let's finish this!", "I'm too tired..."],
+          "text": "Should we make a big fire on the beach or try to build a wooden raft?",
+          "options": ["Big fire 🔥", "Wooden raft 🚣"],
           "correct_option": 0,
           "time_limit": 30
         }
       ]
     }
   ],
-  "ending": "🎉 You reached the top of the mountain! The view is breathtaking, and you feel proud of your journey. Well done, climber! 🏔️"
-}
+  "ending": "🚁 A rescue helicopter spots your fire and lands on the beach. You are saved! 🎉 Your choices kept the team alive. Great job, survivor! 🌍"
+};
+
 
 
 const readings = [
@@ -623,7 +624,8 @@ across the world.`]],
       questions: [
         'Supermarkets: sell fruit and vegetables that transport well; want fruit and vegetables to be standard in their 30_____',
         'Public awareness: while people know about plants disappearing from 31_____, very few know about the decline in fruit and vegetable varieties',
-        'Extinction of food varieties: less than 100 of the types of 32_____ once available in the USA are still grown; over 33_____ of food varieties around the world have disappeared in the last 100 years',
+        'Extinction of food varieties: less than 100 of the types of 32_____ once available in the USA are still grown; ',
+        'over 33_____ of food varieties around the world have disappeared in the last 100 years',
         'Current problems in food production: a particular fungus is attacking wheat in various countries; Rick Ward believes the threat to food supplies in Asia and Africa might lead to a 34_____',
         'Food production in the future: climate change and disease may put pressure on food production; twice the amount of food may be needed because of an increase in 35_____' 
       ],
