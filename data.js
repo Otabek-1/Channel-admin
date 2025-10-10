@@ -633,7 +633,186 @@ across the world.`]],
         q30_35: ['FLAVOR','SUPERMARKETS','APPLES','50 PERCENT','FAMINE','POPULATION']
       }
     }
-
+  },
+  {
+    id:2,
+    part_1:{
+      text: `Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh 
+leaves of Camellia sinensis, an evergreen shrub native to China, India and other East Asian 
+countries. Tea is also rarely made from the 1 ___ of Camellia taliensis. After 
+water, it is the most widely consumed 2 ___ in the world. There are many 
+different types of 3 ___; some have a cooling, slightly bitter, and astringent flavor. 
+Tea has a stimulating effect in humans primarily due to its caffeine content.
+It was popularised as a recreational 4 ___ during the Chinese Tang dynasty, and 
+tea drinking subsequently spread to other East Asian countries. In 1567, Russian people 
+came in contact with 5 ___ when the Cossack Atamans Petrov and Yalyshev 
+visited 6 ___.`,
+      answers: ['leaves','beverage','tea','drink','tea','china']
+    },
+    part_2: {
+      task: `The people below all want to join a sports class. On the next page there are descriptions of eight classes. 
+Decide which class would be the most suitable for the following people. For 1-5 write the correct letter A-H.`,
+      questions: [`Chloe enjoys team sports but doesn't want to play in competitions. She needs a morning 
+class. She doesn't have much money and can't afford to buy expensive equipment.`,`Mike isn't very fit. He would like to get fitter, but he finds exercise boring. He's looking 
+for an evening class that is different every week. He'd also like to see how he is improving 
+over time.`,`Sofia loves sport but is recovering from a serious injury. She wants to train in the 
+afternoon with someone who understands her injury and can give her advice on exercises 
+she can do at home.`,`Jack is very fit and is planning a challenging 200 km run. He wants to train at least twice a 
+week and would like some personal training too. He wants to train indoors and outdoors`,`. Tara takes sport seriously. She plays hockey ad tennis and wants to improve her skills and 
+take part in competitions. She isn't free from Monday to Friday.`],
+      options:[['Sport for life',`Weekly sessions in seven different sports, including squash, tennis and basketball. Do 
+your favourite sport or try new ones each week. Classes take place on Thursdays 3-4 
+p.m. and Sundays 2-3.30 p.m. in Green Park and in the Park Gym. We don't believe in 
+winners and losers, just in having fun!`],['Top training',`Our club offers individual training sessions in the gym, with a personal trainer. The 
+class is ideal for people who enjoy training alone and are keen to improve their 
+fitness, or people who have particular difficulties with their fitness. Classes: every 
+morning 9-11 a.m.`],['Active plus!',`This is a great class for people who enjoy playing sport with others in an informal 
+way. Choose from a range of sports, including 5-a- side football and hockey. Classes 
+are on Saturdays from 9-11 a.m. We provide balls, hockey sticks, etc. and a monthly 
+report on how your fitness is improving.`],['Water-cise!',`Have fun and get fit at your local sports centre! Classes every Tuesday and Thursday 
+from 6-8 p.m. No two classes are the same! We organize regular competitions and 
+also offer individual fitness checks every month, plus the chance to gain progress 
+certificates.`],['Fitness for all',`If you're looking for a gentle, low-cost exercise class, Fitness for all offers exercises to 
+improve your strength and confidence slowly. Our trainers are qualified to help with 
+individual problems and can give you extra ideas to try outside the class. No 
+equipment necessary. Classes: every Tuesday from 2 to 4 p.m.`],['Sport for all',`This class is for people who want to take up a sport such as football or tennis for the 
+first time. It's a great way to get fit in the fresh air. Classes start with training 
+exercises, followed by a game or small tournament. Classes: every Tuesday and 
+Thursday, 6–8 p.m. All equipment provided.`],['Rising stars',`We believe sports are for winners! We offer training from professional sports 
+coaches to help you become a more successful player. Choose from a range of team 
+and racket sports. Players are encouraged to join local and national leagues. Classes: 
+every Saturday and Sunday, or book an individual lesson with one of our trainers.`],['Go for it!',`This is a class for people who want to push themselves so they can compete against 
+other people or themselves! Training takes place every Tuesday, Thursday and 
+Saturday. Classes involve a one-hour run in the park, followed by weight training in 
+the gym. Individual coaching and advice on improving fitness at home are also 
+available.`]],
+      answers: "cdehg",
+    },
+    part_3: {
+      text: `A. This book will provide a detailed examination of the Little Ice Age and other climatic 
+shifts, but, before I embark on that, let me provide a historical context. We tend to 
+think of climate - as opposed to weather - as something unchanging, yet humanity 
+has been at the mercy of climate change for its entire existence, with at least eight 
+glacial episodes in the past 730,000 years. Our ancestors adapted to the universal but 
+irregular global warming since the end of the last great Ice Age, around 10,000 years 
+ago, with dazzling opportunism. They developed strategies for surviving harsh 
+drought cycles, decades of heavy rainfall or unaccustomed cold; adopted agriculture 
+and stock-raising, which revolutionised human life; and founded the world's first pre - industrial civilisations in Egypt, Mesopotamia and the Americas. But the price of 
+sudden climate change, in famine, disease and suffering, was often high.
+B. The Little Ice Age lasted from roughly 1300 until the middle of the nineteenth 
+century. Only two centuries ago, Europe experienced a cycle of bitterly cold winters; 
+mountain glaciers in the Swiss Alps were the lowest in recorded memory, and pack 
+ice surrounded Iceland for much of the year. The climatic events of the Little Ice Age 
+did more than help shape the modern world. They are the deeply important context 
+for the current unprecedented global warming. The Little Ice Age was far from a deep 
+freeze, however; rather an irregular seesaw of rapid climatic shifts, few lasting more 
+than a quarter-century, driven by complex and still little understood interactions 
+between the atmosphere and the ocean. The seesaw brought cycles of intensely cold 
+winters and easterly winds, then switched abruptly to years of heavy spring and early 
+summer rains, mild winters, and frequent Atlantic storms, or to periods of droughts, 
+light northeasterly winds, and summer heat waves.
+C. Reconstructing the climate changes of the past is extremely difficult, because 
+systematic weather observations began only a few centuries ago, in Europe and 
+North America. Records from India and tropical Africa are even more recent. For the 
+time before records began, we have only 'proxy records' reconstructed largely from 
+tree rings and ice cores, supplemented by a few incomplete written accounts. We 
+now have hundreds of tree-ring records from throughout the northern hemisphere, 
+and many from south of the equator, too, amplified with a growing body of 
+temperature data from ice cores drilled in Antarctica, Greenland, the Peruvian Andes, 
+and other locations. We are close to a knowledge of annual summer and winter 
+temperature variations over much of the northern hemisphere going back 600 years.
+D. This book is a narrative history of climatic shifts during the past ten centuries, and 
+some of the ways in which people in Europe adapted to them. Part One describes the 
+Medieval Warm Period, roughly 900 to 1200. During these three centuries, Norse 
+voyagers from Northern Europe explored northern seas, settled Greenland, and 
+visited North America. It was not a time of uniform warmth, for then, as always since 
+the Great Ice Age, there were constant shifts in rainfall and temperature. Mean 
+European temperatures were about the same as today, perhaps slightly cooler.
+E. It is known that the Little Ice Age cooling began in Greenland and the Arctic in about 
+1200. As the Arctic ice pack spread southward, Norse voyages to the west were 
+rerouted into the open Atlantic, then ended altogether. Storminess increased in the 
+North Atlantic and North Sea. Colder, much wetter weather descended on Europe 
+between 1315 and 1319, when thousands perished in a continent-wide famine. By 
+1400, the weather had become decidedly more unpredictable and stormier, with 
+sudden shifts and lower temperatures that culminated in the cold decades of the late 
+sixteenth century. Fish were a vital commodity in growing towns and cities, where 
+food supplies were a constant concern. Dried cod and herring were already the 
+staples of the European fish trade, but changes in water temperatures forced fishing 
+fleets to work further offshore. The Basques, Dutch, and English developed the first 
+offshore fishing boats adapted to a colder and stormier Atlantic. A gradual 
+agricultural revolution in northern Europe stemmed from concerns over food 
+supplies at a time of rising populations. The revolution involved intensive commercial 
+farming and the growing of animal fodder on land not previously used for crops. The 
+increased productivity from farmland made some countries self-sufficient in grain 
+and livestock and offered effective protection against famine.
+F. Global temperatures began to rise slowly after 1850, with the beginning of the 
+Modern Warm Period. There was a vast migration from Europe by land-hungry 
+farmers and others, to which the famine caused by the Irish potato blight 
+contributed, to North America, Australia, New Zealand, and southern Africa. Millions 
+of hectares of forest and woodland fell before the newcomers' axes between 1850 
+and 1890, as intensive European farming methods expanded across the world. The 
+unprecedented land clearance released vast quantities of carbon dioxide into the 
+atmosphere, triggering for the first time humanly caused global warming. 
+Temperatures climbed more rapidly in the twentieth century as the use of fossil fuels 
+proliferated and greenhouse gas levels continued to soar. The rise has been even 
+steeper since the early 1980s. The Little Ice Age has given way to a new climatic 
+regime, marked by prolonged and steady warming. At the same time, extreme 
+weather events like Category 5 hurricanes are becoming more frequent.`,
+      headings:[
+        'Predicting climatic changes', 'The relevance of the Little Ice Age today','How cities contribute to climate change','Human impact on the climate','How past climatic conditions can be determined','A growing need for weather records','A study covering a thousand years','People have always responded to climate change','Enough food at last'
+      ],
+      answers: "hbegid"
+    },
+    part_4:{
+      text: `As typically English' as tea at five, "The Changing of the Guard" or inclement weather, 
+cricket is a sport that might take a lifetime to understand, never mind appreciate. Matches 
+might last anything up to five days, with nothing appearing to happen for hours on end and 
+then when it does you will probably either be looking the other way or be fast asleep. 
+Never mind that its rules are so complex that you probably need a PhD to comprehend 
+them fully. Many Americans might decide it's not really worth the bother.
+The precise origins of cricket are highly debatable and there are many theories as to how it 
+started. It might have been invented by shepherds or played in churchyards as far back as 
+the thirteenth century, although some accounts suggest that it might pre-date this by as 
+much as two hundred years. The first source which British historians consider completely 
+reliable describes Prince Edward playing something which resembled cricket in 1300, 
+although even this account fails to firmly establish the sport's origins. The rules of the 
+modern game were not completely developed until the nineteenth century. The first 
+organised internationals took place in 1861, with England and Australia commencing what 
+soon developed into a fierce, ongoing competitive rivalry. As the rules and regulations of 
+the game were being formally established, other countries joined the growing international 
+playing community
+To attempt to explain the rules of cricket comprehensively in an article of this length would 
+be impossible. It could be argued that the basic principles of the game are similar to those 
+of baseball, although the game play and rules are very different. Cricket is an outdoor, fairweather sport played mainly in countries belonging to the British Commonwealth, such as 
+England, Australia, the West Indies, India, Pakistan and South Africa. The balance of power 
+in international cricket tends to swing between these competing nations. At present 
+Australia predominate having been virtually unbeatable for the last decade or so and teams 
+always face a tough match against them.
+Although it might appear to be a sedate, sleepy pastime, cricket has always demanded 
+fierce concentration and immense courage. Since becoming fully professional in the 1970's 
+standards and training facilities have improved immensely across the game. Cricket is now 
+as competitive and technical as any global sport, and who knows, perhaps its popularity 
+might yet spread to new, previously unexplored territories.`,
+      questions: {
+        q21_24: [
+          'In the first paragraph the author suggests that.',
+          'Why do scientists use seabirds as important subjects when observe climate change World-widely?',
+          'What happened for Marine mammals that live in Tugidak Island in Gulf of Alaska?',
+          'According to J. Walker, what happens in the monsoon seasons notably?'
+        ],
+        q25_29: [
+          'Seabirds are regarded as precious indicators of changes in oceanic environment.',
+          'Seabirds such as Fulmars and Murres feed by the characteristic of prey in different ways.',
+          'Steller sea lions only decline in birth rate and fewer pups, but the whole population wouldn’t be affected by the changes.',
+          'With reply of Walker’s colleague, knowledge of wind patterns will be very helpful.',
+          'It is difficult to investigate El Nino for ornithologists and ecologist because lack of available statistics and inspections.'
+        ]
+      },
+      answers: {
+        q21_24: ['B','A','C','D'],
+        q25_29: ['A','A','B','A','A']
+      }
+    }
   }
 ]
 
