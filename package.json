@@ -11,7 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
+    "express": "^5.1.0",
     "fs": "^0.0.1-security",
     "moment-timezone": "^0.6.0",
     "node-cron": "^4.2.1",
