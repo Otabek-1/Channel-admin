@@ -381,13 +381,12 @@ bot.on("message", async (ctx) => {
       await ctx.reply("⚠️ This type of content is not supported yet.");
     }
   } else if (ctx.message.text === "📕 Reading mock") {
-    // await ctx.reply(
-    //   "Platformaga kirish uchun tugmani bosing.",
-    //   Markup.inlineKeyboard([
-    //     [Markup.button.url("Kirish", "https://google.com")]
-    //   ])
-    // );
-    await ctx.reply("Coming soon.")
+    await ctx.reply(
+      "Platformaga kirish uchun tugmani bosing.",
+      Markup.inlineKeyboard([
+        [Markup.button.url("Kirish", "https://google.com")]
+      ])
+    );
 
   }
 });
