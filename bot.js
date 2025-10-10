@@ -384,7 +384,7 @@ bot.on("message", async (ctx) => {
     await ctx.reply(
       "Platformaga kirish uchun tugmani bosing.",
       Markup.inlineKeyboard([
-        [Markup.button.url("Kirish", "https://google.com")]
+        [Markup.button.url("Kirish", "https://mock-reading.netlify.app/")]
       ])
     );
 
