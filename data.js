@@ -635,8 +635,8 @@ across the world.`]],
     }
   },
   {
-    id:2,
-    part_1:{
+    id: 2,
+    part_1: {
       text: `Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh 
 leaves of Camellia sinensis, an evergreen shrub native to China, India and other East Asian 
 countries. Tea is also rarely made from the 1 ___ of Camellia taliensis. After 
@@ -647,46 +647,61 @@ It was popularised as a recreational 4 ___ during the Chinese Tang dynasty, and
 tea drinking subsequently spread to other East Asian countries. In 1567, Russian people 
 came in contact with 5 ___ when the Cossack Atamans Petrov and Yalyshev 
 visited 6 ___.`,
-      answers: ['leaves','beverage','tea','drink','tea','china']
+      answers: ['leaves', 'beverage', 'tea', 'drink', 'tea', 'china']
     },
     part_2: {
       task: `The people below all want to join a sports class. On the next page there are descriptions of eight classes. 
 Decide which class would be the most suitable for the following people. For 1-5 write the correct letter A-H.`,
-      questions: [`Chloe enjoys team sports but doesn't want to play in competitions. She needs a morning 
-class. She doesn't have much money and can't afford to buy expensive equipment.`,`Mike isn't very fit. He would like to get fitter, but he finds exercise boring. He's looking 
+      questions: [
+        `Chloe enjoys team sports but doesn't want to play in competitions. She needs a morning 
+class. She doesn't have much money and can't afford to buy expensive equipment.`,
+        `Mike isn't very fit. He would like to get fitter, but he finds exercise boring. He's looking 
 for an evening class that is different every week. He'd also like to see how he is improving 
-over time.`,`Sofia loves sport but is recovering from a serious injury. She wants to train in the 
+over time.`,
+        `Sofia loves sport but is recovering from a serious injury. She wants to train in the 
 afternoon with someone who understands her injury and can give her advice on exercises 
-she can do at home.`,`Jack is very fit and is planning a challenging 200 km run. He wants to train at least twice a 
-week and would like some personal training too. He wants to train indoors and outdoors`,`. Tara takes sport seriously. She plays hockey ad tennis and wants to improve her skills and 
-take part in competitions. She isn't free from Monday to Friday.`],
-      options:[['Sport for life',`Weekly sessions in seven different sports, including squash, tennis and basketball. Do 
+she can do at home.`,
+        `Jack is very fit and is planning a challenging 200 km run. He wants to train at least twice a 
+week and would like some personal training too. He wants to train indoors and outdoors`,
+        `Tara takes sport seriously. She plays hockey ad tennis and wants to improve her skills and 
+take part in competitions. She isn't free from Monday to Friday.`
+      ],
+      options: [
+        ['Sport for life', `Weekly sessions in seven different sports, including squash, tennis and basketball. Do 
 your favourite sport or try new ones each week. Classes take place on Thursdays 3-4 
 p.m. and Sundays 2-3.30 p.m. in Green Park and in the Park Gym. We don't believe in 
-winners and losers, just in having fun!`],['Top training',`Our club offers individual training sessions in the gym, with a personal trainer. The 
+winners and losers, just in having fun!`],
+        ['Top training', `Our club offers individual training sessions in the gym, with a personal trainer. The 
 class is ideal for people who enjoy training alone and are keen to improve their 
 fitness, or people who have particular difficulties with their fitness. Classes: every 
-morning 9-11 a.m.`],['Active plus!',`This is a great class for people who enjoy playing sport with others in an informal 
+morning 9-11 a.m.`],
+        ['Active plus!', `This is a great class for people who enjoy playing sport with others in an informal 
 way. Choose from a range of sports, including 5-a- side football and hockey. Classes 
 are on Saturdays from 9-11 a.m. We provide balls, hockey sticks, etc. and a monthly 
-report on how your fitness is improving.`],['Water-cise!',`Have fun and get fit at your local sports centre! Classes every Tuesday and Thursday 
+report on how your fitness is improving.`],
+        ['Water-cise!', `Have fun and get fit at your local sports centre! Classes every Tuesday and Thursday 
 from 6-8 p.m. No two classes are the same! We organize regular competitions and 
 also offer individual fitness checks every month, plus the chance to gain progress 
-certificates.`],['Fitness for all',`If you're looking for a gentle, low-cost exercise class, Fitness for all offers exercises to 
+certificates.`],
+        ['Fitness for all', `If you're looking for a gentle, low-cost exercise class, Fitness for all offers exercises to 
 improve your strength and confidence slowly. Our trainers are qualified to help with 
 individual problems and can give you extra ideas to try outside the class. No 
-equipment necessary. Classes: every Tuesday from 2 to 4 p.m.`],['Sport for all',`This class is for people who want to take up a sport such as football or tennis for the 
+equipment necessary. Classes: every Tuesday from 2 to 4 p.m.`],
+        ['Sport for all', `This class is for people who want to take up a sport such as football or tennis for the 
 first time. It's a great way to get fit in the fresh air. Classes start with training 
 exercises, followed by a game or small tournament. Classes: every Tuesday and 
-Thursday, 6–8 p.m. All equipment provided.`],['Rising stars',`We believe sports are for winners! We offer training from professional sports 
+Thursday, 6–8 p.m. All equipment provided.`],
+        ['Rising stars', `We believe sports are for winners! We offer training from professional sports 
 coaches to help you become a more successful player. Choose from a range of team 
 and racket sports. Players are encouraged to join local and national leagues. Classes: 
-every Saturday and Sunday, or book an individual lesson with one of our trainers.`],['Go for it!',`This is a class for people who want to push themselves so they can compete against 
+every Saturday and Sunday, or book an individual lesson with one of our trainers.`],
+        ['Go for it!', `This is a class for people who want to push themselves so they can compete against 
 other people or themselves! Training takes place every Tuesday, Thursday and 
 Saturday. Classes involve a one-hour run in the park, followed by weight training in 
 the gym. Individual coaching and advice on improving fitness at home are also 
-available.`]],
-      answers: "cdehg",
+available.`]
+      ],
+      answers: "cdehg"
     },
     part_3: {
       text: `A. This book will provide a detailed examination of the Little Ice Age and other climatic 
@@ -758,12 +773,12 @@ proliferated and greenhouse gas levels continued to soar. The rise has been even
 steeper since the early 1980s. The Little Ice Age has given way to a new climatic 
 regime, marked by prolonged and steady warming. At the same time, extreme 
 weather events like Category 5 hurricanes are becoming more frequent.`,
-      headings:[
-        'Predicting climatic changes', 'The relevance of the Little Ice Age today','How cities contribute to climate change','Human impact on the climate','How past climatic conditions can be determined','A growing need for weather records','A study covering a thousand years','People have always responded to climate change','Enough food at last'
+      headings: [
+        'Predicting climatic changes', 'The relevance of the Little Ice Age today', 'How cities contribute to climate change', 'Human impact on the climate', 'How past climatic conditions can be determined', 'The Medieval Warm Period', 'How agriculture was affected by climate', 'The Modern Warm Period', 'Historical context for climate change'
       ],
       answers: "hbegid"
     },
-    part_4:{
+    part_4: {
       text: `As typically English' as tea at five, "The Changing of the Guard" or inclement weather, 
 cricket is a sport that might take a lifetime to understand, never mind appreciate. Matches 
 might last anything up to five days, with nothing appearing to happen for hours on end and 
@@ -794,23 +809,105 @@ standards and training facilities have improved immensely across the game. Crick
 as competitive and technical as any global sport, and who knows, perhaps its popularity 
 might yet spread to new, previously unexplored territories.`,
       questions: {
-        q21_24: [
-          'In the first paragraph the author suggests that.',
-          'Why do scientists use seabirds as important subjects when observe climate change World-widely?',
-          'What happened for Marine mammals that live in Tugidak Island in Gulf of Alaska?',
-          'According to J. Walker, what happens in the monsoon seasons notably?'
-        ],
-        q25_29: [
-          'Seabirds are regarded as precious indicators of changes in oceanic environment.',
-          'Seabirds such as Fulmars and Murres feed by the characteristic of prey in different ways.',
-          'Steller sea lions only decline in birth rate and fewer pups, but the whole population wouldn’t be affected by the changes.',
-          'With reply of Walker’s colleague, knowledge of wind patterns will be very helpful.',
-          'It is difficult to investigate El Nino for ornithologists and ecologist because lack of available statistics and inspections.'
+        q21_27: [
+          {
+            question: 'In the first paragraph the author suggests that.',
+            options: [
+              'A. cricket is only played in good weather.',
+              'B. people understand cricket quickly.',
+              'C. people enjoy cricket before understanding it.',
+              'D. some foreigners might not take the trouble to understand the game.'
+            ]
+          },
+          {
+            question: 'Concerning the start of cricket...',
+            options: [
+              'A. there is little dispute.',
+              'B. it was first played by shepherds in churchyards.',
+              'C. it was already in existence by 1300.',
+              'D. Prince Edward established the rules.'
+            ]
+          },
+          {
+            question: 'England and Australia...',
+            options: [
+              'A. were the first nations to play official matches.',
+              'B. organised world tournaments.',
+              'C. finalised the official rules of cricket.',
+              'D. played each other annually.'
+            ]
+          },
+          {
+            question: "The writer doesn't explain all of the rules of cricket because...",
+            options: [
+              "A. there isn't enough space in the article.",
+              'B. they are in a constant state of change.',
+              'C. they are so similar to baseball.',
+              "D. he doesn't understand them himself."
+            ]
+          },
+          {
+            question: 'The writer says that the current Australian cricket team...',
+            options: [
+              'A. have better facilities than other teams.',
+              'B. are the best team in the world at the moment.',
+              'C. are losing their dominant position in the sport.',
+              "D. are a team other teams don't like to play."
+            ]
+          },
+          {
+            question: 'The process of professionalism...',
+            options: [
+              'A. has made the sport more popular.',
+              'B. has made cricket more difficult to understand.',
+              'C. has raised the standard of the sport.',
+              'D. has required its participants to be braver.'
+            ]
+          },
+          {
+            question: 'Whom is the text aimed at?',
+            options: [
+              'A. Amateur cricketers.',
+              'B. Cricket fans.',
+              'C. Newcomers to cricket.',
+              "D. People who don't like cricket."
+            ]
+          }
         ]
       },
       answers: {
-        q21_24: ['B','A','C','D'],
-        q25_29: ['A','A','B','A','A']
+        q21_27: ['D', 'C', 'A', 'A', 'B', 'C', 'C']
+      }
+    },
+    part_5:{
+      text: `As a result of this technical difficulty, the invention of the lithographic process had little 
+impact on posters until the 1860s, when Jules Cheret came up with his 'three-stone 
+lithographic process'. This gave artists the opportunity to experiment with a wide spectrum 
+of colours. Although the process was difficult, the result was remarkable, with nuances of 
+colour impossible in other media even to this day. The ability to mix words and images in 
+such an attractive and economical format finally made the lithographic poster a powerful 
+innovation. Starting in the 1870s, posters became the main vehicle for advertising prior to 
+the magazine era and the dominant means of mass communication in the rapidly growing 
+cities of Europe and America. Yet in the streets of Paris, Milan and Berlin, these artistic 
+prints were so popular that they were stolen off walls almost as soon as they were hung. 
+Cheret, later known as the father of the modern poster', organised the first exhibition of 
+posters in 1884 and two years later published the first book on poster art. He quickly took 
+advantage of the public interest by arranging for artists to create posters, at a reduced size, 
+that were suitable for in-home display. Thanks to Cheret. the poster slowly took hold in 
+other countries in the 1890s and came to celebrate each society's unique cultural 
+institutions: the cafe in France, the opera and fashion in Italy, festivals in Spain, literature in 
+Holland and trade fairs in Germany. The first poster shows were held in Great Britain and 
+Italy in 1894, Germany in 1896 and Russia in 1897. The most important poster show ever, 
+to many observers, was held in Reims, France, in 1896 and featured an unbelievable 1,690 
+posters arranged by country.`,
+      questions: [
+        `1860s - ivention of 'three-stone lithographic process' combination of both 1............. on coloured posters`,
+        `1870s - posters used for advertising and 2............. in Europe`,
+        `1884-86 - Cheret's poster 3.............. and book on poster art`,
+        `1890s - posters represent 4................ around the world`,
+      ],
+      answers: {
+        q30_35: ['WORDS AND IMAGES','MASS COMMUNICATION','EXHIBITION','UNIQUE CULTURAL INSTITUTIONS']
       }
     }
   }
